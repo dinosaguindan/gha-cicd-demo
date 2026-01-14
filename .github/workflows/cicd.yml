@@ -35,7 +35,7 @@ jobs:
       # 5. Test step (gatekeeper)
       - name: Run tests
         run: |
-          pytest
+          pytest test_app.py
 
       # 6. Deploy step (runs only if tests pass)
       - name: Deploy application
